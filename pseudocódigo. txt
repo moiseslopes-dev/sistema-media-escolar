@@ -1,0 +1,45 @@
+algoritmo: "Aluno rpv,apv,rec"
+
+var
+   p, s, t, m : real
+   nome : caractere
+inicio
+      escreval ("----------------------------")
+      escreval ("     ESCOLA DO RAIMUNDO     ")
+      escreval ("----------------------------")
+      escreva ("Digite o nome do aluno: ")
+      leia (nome)
+      escreva ("Primeira nota: ")
+      leia (p)
+      escreva ("Segunda nota: ")
+      leia (s)
+      escreva ("Terceira nota: ")
+      leia (t)
+      m <- (p + s + t)/ 3
+      escreval ("----------------------------")
+      escreval ("A média do aluno ", nome, " foi: ", m:4:2)
+      se (m >= 9) e (m <=10) entao
+       escreval("APROVEITAMENTO: A")
+      senao
+           se (m >= 8) e (m <= 8.9) entao
+              escreval("APROVEITAMENTO: B")
+           senao
+                se (m >= 7) e (m <= 7.9) entao
+                   escreval("APROVEITAMENTO: C")
+                senao
+                     se (m >= 6) e (m <= 6.9) entao
+                        escreval ("APROVEITAMENTO: D")
+                     senao
+                          se (m >= 5) e (m <= 5.9) entao
+                             escreval ("APROVEITAMENTO: E")
+                          senao
+                               se (m < 5)entao
+                                  escreval ("APROVEITAMENTO: F")
+                               FimSe
+                          FimSe
+                     FimSe
+                Fimse
+           FimSe
+      FimSe
+      escreval ("----------------------------")
+fimalgoritmo
