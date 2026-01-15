@@ -8,6 +8,7 @@ O sistema recebe o nome do aluno e três notas, calcula a média e informa se o 
 - Entrada e saída de dados
 - EStrutura condicional (se/senão)
 - Cálculo de média
+- Classificação de notas (A, B, C, D, E, F)
 
 ## Status do projeto
 Em desenvolvimento
