@@ -7,7 +7,7 @@ inicio
    escreval ("----------------------------")
    escreval ("     ESCOLA DO RAIMUNDO     ")
    escreval ("----------------------------")
-   escreva ("Digite o nome do aluno: ")
+   escreva ("Digite o nome do aluno (a): ")
    leia (nome)
    escreva ("Primeira nota: ")
    leia (p)
@@ -17,7 +17,7 @@ inicio
    leia (t)
    m <- (p + s + t)/ 3
    escreval ("----------------------------")
-   escreval ("A média do aluno ", nome, " foi: ", m:4:2)
+   escreval ("A média do aluno (a) ", nome, " foi: ", m:4:2)
    se (m >= 9) e (m <=10) entao
       escreval("APROVEITAMENTO: A")
    senao
