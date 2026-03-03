@@ -11,4 +11,4 @@ O sistema recebe o nome do aluno e três notas, calcula a média e informa se o 
 - Classificação de notas (A, B, C, D, E, F)
 
 ## Status do projeto
-Em desenvolvimento
+Concluído
