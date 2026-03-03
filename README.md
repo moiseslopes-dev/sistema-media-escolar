@@ -1,8 +1,7 @@
-# Sistema de Média Escolar
+# Sistema de Média Escolar (Visualg)
 ## Descrição
-Projeto criado para praticar lógica de programação.
-O sistema recebe o nome do aluno e três notas, calcula a média e informa se o aluno ficou aprovado, reprovado ou de recuperação.
-
+  Sistema desenvolvido em Portugol (Visualg) para calcular a média de um aluno com base em três notas e determinar sua situação final.
+  O projeto foi criado com foco na prática de lógica de programação e organização de código
 ## Conceitos utilizados
 - Variáveis
 - Entrada e saída de dados
